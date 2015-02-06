@@ -208,7 +208,7 @@
     <string name="errorResultNetworkError">Puudub võrguühendus kõnetuvastusserveriga. Kas
 		võrguühendus on sisse lülitatud?</string>
 
-    // SpeechRecognizer error messages (9) shown in the IME
+    <!-- SpeechRecognizer error messages (9) shown in the IME -->
     <string name="errorImeResultAudioError">VIGA: lindistamine luhtus</string>
     <string name="errorImeResultNetworkError">VIGA: netiühendus puudub</string>
     <string name="errorImeResultNetworkTimeoutError">VIGA: server ei tööta</string>

@@ -17,12 +17,12 @@
     <string name="defaultServerHttp" translatable="false">http://bark.phon.ioc.ee/speech-api/v1/recognize</string>
     <string name="defaultImeRecognizerService" translatable="false">ee.ioc.phon.android.speak|ee.ioc.phon.android.speak.WebSocketRecognizer</string>
     <string name="keyDefaultRecognitionService" translatable="false">keyDefaultRecognitionService</string>
-    // These keys are needed to locate (to show/hide) the "enable ime" link in the settings
+    <!-- These keys are needed to locate (to show/hide) the "enable ime" link in the settings-->
     <string name="keyEnableIme" translatable="false">keyEnableIme</string>
     <string name="keyCategoryIme" translatable="false">keyCategoryIme</string>
 
-    // ws://bark.phon.ioc.ee:82/dev/duplex-speech-api/ws/speech
-    // ws://bark.phon.ioc.ee:82/dev/duplex-speech-api/ws/status
+    <!-- ws://bark.phon.ioc.ee:82/dev/duplex-speech-api/ws/speech -->
+    <!-- ws://bark.phon.ioc.ee:82/dev/duplex-speech-api/ws/status -->
     <string name="defaultServerWs" translatable="false">ws://bark.phon.ioc.ee:82/dev/duplex-speech-api/ws/</string>
 
     <string name="defaultAutoStopAfterTime" translatable="false">20</string>
@@ -166,7 +166,7 @@ More grammars are available at
 
     <string name="errorResultNetworkError">Something is wrong with the internet connection. Maybe it is not switched on?</string>
 
-    // SpeechRecognizer error messages (9) shown in the IME
+    <!-- SpeechRecognizer error messages (9) shown in the IME -->
     <string name="errorImeResultAudioError">ERROR: audio recording failed</string>
     <string name="errorImeResultNetworkError">ERROR: no network connection</string>
     <string name="errorImeResultNetworkTimeoutError">ERROR: network connection timeout</string>

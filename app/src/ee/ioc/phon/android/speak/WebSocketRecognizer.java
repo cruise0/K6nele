@@ -339,7 +339,7 @@ public class WebSocketRecognizer extends RecognitionService {
      * TODO: unify this better
      */
     private String getQueryParams(Intent intent) {
-        List<BasicNameValuePair> list = new ArrayList<>();
+        List<BasicNameValuePair> list = new ArrayList<BasicNameValuePair>();
         flattenBundle("editorInfo_", list, intent.getBundleExtra(Extras.EXTRA_EDITOR_INFO));
 
         try {

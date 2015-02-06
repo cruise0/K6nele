@@ -80,8 +80,8 @@ public class WebSocketResponse {
 
 
     public static class Result {
-        private final ArrayList<String> mHypotheses = new ArrayList<>();
-        private final ArrayList<String> mHypothesesPp = new ArrayList<>();
+        private final ArrayList<String> mHypotheses = new ArrayList<String>();
+        private final ArrayList<String> mHypothesesPp = new ArrayList<String>();
         private final boolean mIsFinal;
 
         public Result(JSONObject result) throws JSONException {
